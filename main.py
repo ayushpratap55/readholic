@@ -13,12 +13,12 @@ data={
 @app.route("/")
 def home():
     #rendering(returning) HTML file
-    return render_template("home.html", data=data)
+    return render_template("home.html")
 
 
 @app.route("/about")
 def about():
-    return "<h1>About Page</h1>"
+    return render_template("about.html")
 
 @app.route("/me")     
 @app.route("/add")
