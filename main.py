@@ -15,6 +15,11 @@ def home():
     #rendering(returning) HTML file
     return render_template("home.html")
 
+@app.route("/register")
+def register():
+    #rendering(returning) HTML file
+    return render_template("register.html")
+
 
 @app.route("/about")
 def about():
