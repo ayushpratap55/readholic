@@ -1,0 +1,13 @@
+.wrapper{
+    min-height:calc(100vh - 24px);
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.copyright-note{
+    color: white;
+}
